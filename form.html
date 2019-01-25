@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+     <form method="POST" action="https://formspree.io/chetverykanton92@gmail.com">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name" required name="user-name">
+        <br>
+        <label>
+            Email: <input type="email" placeholder="Email"  required name="user-email">
+            <br>
+            <label>
+                Password: <input type="password" placeholder='Password' required name='password'>
+            </label>
+        </label>
+        <br>
+        <input type="submit" value='Send yor data'>
+        </form>
+        <h2>Radio</h2>
+    <form>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+    </form>
+    <h2>Textarea</h2>
+    <input type="textarea" name="textarea"/>
+    <h2>Button</h2>
+    <button>Button</button>
+    <h2>Select</h2>
+    <select name="select" id="">
+        <option>One</option>
+        <option>Two</option>
+    </select>
+    <h2>Checkbox</h2>
+        <input type="checkbox" name="gender" value="male" checked> Male<br>
+        <input type="checkbox" name="gender" value="female"> Female<br>
+        <input type="checkbox" name="gender" value="other"> Other
+</form> 
+
+</body>
+</html>
